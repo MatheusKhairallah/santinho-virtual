@@ -10,7 +10,9 @@ img {
     max-width: 100%;
 }
 
-#foto {}
+#foto {
+    background-image: linear-gradient(to right, #0A4001 0%, #BABF93 100%);
+}
 
 #santinho {
     height: 600px;
@@ -23,14 +25,42 @@ img {
 h1 {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    color: darkblue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 3px 2px 0  darkolivegreen;
+
 }
 
-#cargo {}
+#cargo {
+    background-image: linear-gradient(to right, #0A4001 0%, #BABF93 100%);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
 
-#slogan {}
+#slogan {
+    background-image: linear-gradient(to right, #0A4001 0%, #BABF93 100%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
 
-#final {}
+#final {
+    background-color: yellowgreen;
+    font-size: 50px;
+    display: flex; height: 50px; justify-content: space-around; align-items: center;
+    font-weight: bold;
+}
 
-#numero {}
+#numero {
+    color: darkblue;
+    text-shadow: 3px 2px 0  darkolivegreen;
+}
 
-#partido {}
+#partido {
+    color: darkblue;
+    text-shadow: 3px 2px 0  darkolivegreen;
+}
